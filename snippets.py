@@ -31,7 +31,7 @@ scissors = ('''
 game_image = [rock, paper, scissors]
 
 print("Welcome to the World of Rock, Paper & Scissors.")
-print("Are you ready to enjoy one of, if not the greatest experience of your pathetic life?")
+print("Are you ready to enjoy one of, if not the greatest experience of your life?")
 usr_input_raw = int(input("Type 1 for Rock, 2 for Paper or 3 for Scissors:\n\n"))
 
 usr_input = usr_input_raw - 1

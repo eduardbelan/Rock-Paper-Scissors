@@ -1,0 +1,6 @@
+* DONE- add loop to play again
+- add scoreboard
+* DONE - add clear screen at the beginning and end
+- add delay for comp pick to make it more dramatic
+* DONE - let user choose by typing r or rock, as well as numbers
+* DONE - add logo
