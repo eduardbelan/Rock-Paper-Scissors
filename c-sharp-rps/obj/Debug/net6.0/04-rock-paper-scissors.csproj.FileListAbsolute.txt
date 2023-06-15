@@ -1,0 +1,15 @@
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\bin\Debug\net6.0\04-rock-paper-scissors.exe
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\bin\Debug\net6.0\04-rock-paper-scissors.deps.json
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\bin\Debug\net6.0\04-rock-paper-scissors.runtimeconfig.json
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\bin\Debug\net6.0\04-rock-paper-scissors.dll
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\bin\Debug\net6.0\04-rock-paper-scissors.pdb
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\obj\Debug\net6.0\04-rock-paper-scissors.csproj.AssemblyReference.cache
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\obj\Debug\net6.0\04-rock-paper-scissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\obj\Debug\net6.0\04-rock-paper-scissors.AssemblyInfoInputs.cache
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\obj\Debug\net6.0\04-rock-paper-scissors.AssemblyInfo.cs
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\obj\Debug\net6.0\04-rock-paper-scissors.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\obj\Debug\net6.0\04-rock-paper-scissors.dll
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\obj\Debug\net6.0\refint\04-rock-paper-scissors.dll
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\obj\Debug\net6.0\04-rock-paper-scissors.pdb
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\obj\Debug\net6.0\04-rock-paper-scissors.genruntimeconfig.cache
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\04-rock-paper-scissors\obj\Debug\net6.0\ref\04-rock-paper-scissors.dll

@@ -1,0 +1,15 @@
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\bin\Debug\net6.0\rps-crazy-mode.exe
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\bin\Debug\net6.0\rps-crazy-mode.deps.json
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\bin\Debug\net6.0\rps-crazy-mode.runtimeconfig.json
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\bin\Debug\net6.0\rps-crazy-mode.dll
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\bin\Debug\net6.0\rps-crazy-mode.pdb
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\obj\Debug\net6.0\rps-crazy-mode.csproj.AssemblyReference.cache
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\obj\Debug\net6.0\rps-crazy-mode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\obj\Debug\net6.0\rps-crazy-mode.AssemblyInfoInputs.cache
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\obj\Debug\net6.0\rps-crazy-mode.AssemblyInfo.cs
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\obj\Debug\net6.0\rps-crazy-mode.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\obj\Debug\net6.0\rps-crazy-mode.dll
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\obj\Debug\net6.0\refint\rps-crazy-mode.dll
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\obj\Debug\net6.0\rps-crazy-mode.pdb
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\obj\Debug\net6.0\rps-crazy-mode.genruntimeconfig.cache
+C:\Users\eduar\Umschulung\SE-Grundlagen\Uebungen\rps-crazy-mode\obj\Debug\net6.0\ref\rps-crazy-mode.dll
