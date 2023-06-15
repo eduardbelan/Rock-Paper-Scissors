@@ -1,19 +1,4 @@
-﻿//Programmire ein Schere, Stein, Papier Spiel.
-//Der User soll eines der Handzeichen auswählen können.
-//Der Computer wählt per Zufall ein eigenes Zeichen.
-//(Hierzu bitte selbsständig Random für C# Recherchieren)
-//Dem User soll dann ausgegeben werden, welches Zeichen der Computer gewählt hat,
-//und ob man Gewonnen, Verloren oder ein Unentschieden hat.
-//Danach kann sich der User entscheiden eine weitere Runde zu spielen oder nicht.
-
-
-// Meine Lösung
-// define general variables
-//string userChoice = string.Empty;
-//string computerChoice = string.Empty;
-//string computerChoiceIcon;
-//bool validInput = false;
-int randomChoice;
+﻿int randomChoice;
 bool goAgain = false;
 bool firstRun = true;
 
@@ -155,29 +140,29 @@ while (!goAgain)
     if (firstRun)
     {
         //Console.WriteLine("Computer Choose:\n");
-        Thread.Sleep(100); // 500
+        Thread.Sleep(500); // 500
         Console.Write(". ");
-        Thread.Sleep(100);
+        Thread.Sleep(500);
         Console.Write(". ");
-        Thread.Sleep(100);
+        Thread.Sleep(500);
         Console.WriteLine(".");
-        Thread.Sleep(100);
+        Thread.Sleep(500);
         Console.WriteLine("Calculating...");
-        Thread.Sleep(100); // 2
+        Thread.Sleep(2000); // 2
         Console.WriteLine("Estimating Parameters...");
-        Thread.Sleep(100);
+        Thread.Sleep(2000);
         Console.WriteLine("Thinking about how to destroy Planet Earth...");
-        Thread.Sleep(100); // 3
+        Thread.Sleep(3000); // 3
         Console.WriteLine("...just kidding.");
-        Thread.Sleep(100); // 2
+        Thread.Sleep(2000); // 2
         Console.WriteLine("I already know your pick so this is easy...");
-        Thread.Sleep(100); // 3
+        Thread.Sleep(3000); // 3
         Console.WriteLine("While you wait, take a look at this Helicopter.");
-        Thread.Sleep(100); // 2
+        Thread.Sleep(2000); // 2
         Console.WriteLine(helicopter);
-        Thread.Sleep(100);
+        Thread.Sleep(1000);
         Console.WriteLine("It can fly, look!");
-        Thread.Sleep(100);
+        Thread.Sleep(2000);
 
 
 
@@ -320,15 +305,15 @@ while (!goAgain)
         Console.Write(new string(' ', Console.WindowWidth));
 
         Console.SetCursorPosition(0, 24);
-        Thread.Sleep(100);
+        Thread.Sleep(500);
         Console.Write("Computer Choose:\n");
-        Thread.Sleep(100); // 500
+        Thread.Sleep(500); // 500
         Console.Write(". ");
-        Thread.Sleep(100);
+        Thread.Sleep(500);
         Console.Write(". ");
-        Thread.Sleep(100);
+        Thread.Sleep(500);
         Console.WriteLine(".");
-        Thread.Sleep(100);
+        Thread.Sleep(500);
         Console.WriteLine($"{computerChoiceIcon}");
 
 
@@ -407,113 +392,3 @@ while (!goAgain)
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//// Lösung Unterricht
-//string userWahl;
-//Random rnd = new Random();
-//int computerWahl;
-//bool continueGame;
-
-//do
-//{
-//    continueGame = false;
-//    Console.Clear();
-//    Console.WriteLine("Hallo User!\nWähle PAPIER, STEIN oder SCHERE");
-//    userWahl = Console.ReadLine().ToLower();
-//    computerWahl = rnd.Next(1, 4);
-
-//    if (userWahl == "papier" || userWahl == "stein" || userWahl == "schere")
-//    {
-//        if (computerWahl == 1)
-//        {
-//            Console.WriteLine("\nDer Computer hat PAPIER gewählt");
-//            if (userWahl == "schere")
-//            {
-//                Console.WriteLine("Du hast gewonnen.");
-//            }
-//            else if (userWahl == "stein")
-//            {
-//                Console.WriteLine("Du hast verloren.");
-//            }
-//            else
-//            {
-//                Console.WriteLine("Das war ein Unentschieden.");
-//            }
-//        }
-//        else if (computerWahl == 2)
-//        {
-//            Console.WriteLine("\nDer Computer hat STEIN gewählt.");
-//            if (userWahl == "papier")
-//            {
-//                Console.WriteLine("Du hast gewonnen.");
-//            }
-//            else if (userWahl == "schere")
-//            {
-//                Console.WriteLine("Du hast verloren.");
-//            }
-//            else
-//            {
-//                Console.WriteLine("Das war ein Unentschieden.");
-//            }
-//        }
-//        else if (computerWahl == 3)
-//        {
-//            Console.WriteLine("\nDer Computer hat SCHERE gewählt");
-//            if (userWahl.Equals("stein")) //.Equals kann als ersatz für == verwendet werdenm, vergleicht nur auf einer tieferen Ebene.
-//            {
-//                Console.WriteLine("Du hast gewonnen.");
-//            }
-//            else if (userWahl.Equals("papier"))
-//            {
-//                Console.WriteLine("Du hast verloren.");
-//            }
-//            else
-//            {
-//                Console.WriteLine("Das war ein Unentschieden.");
-//            }
-//        }
-//        else
-//        {
-//            Console.WriteLine("Entschuldige. Der Computer konnte sich wohl nicht entscheiden.");
-//        }
-//    }
-//    else
-//    {
-//        Console.WriteLine("Unzulässige Eingabe.");
-//    }
-
-//    Console.WriteLine("\nMöchtest du eine weitere Runde spielen? J/N");
-//    string eingabe = Console.ReadLine().ToLower();
-//    if (eingabe.Equals("j"))
-//    {
-//        continueGame = true;
-//    }
-//    else
-//    {
-//        Console.WriteLine("\nVielen Dank fürs Spielen. Drücke Enter zum Beenden.");
-//        Console.ReadLine();
-//    }
-//}
-//while (continueGame);
