@@ -6,6 +6,11 @@ import time
 from art import rock, paper, scissors, logo
 
 
+# Global variables
+POINTS_USER = 0
+POINTS_MACHINE = 0
+TIE = 0
+
 # List for form and dict for input check
 game_image = [rock, paper, scissors]
 valid_input_dict = {
@@ -22,9 +27,15 @@ def clear_screen():
     # Windows
     clear = lambda: os.system("cls")
     clear()
-    # Linux
-    # clear = lambda os.system("clear")
-    # clear()
+
+
+def scoreboard():
+    """
+    Count the Points for every session
+    """
+    return f"User:\t\t{POINTS_USER}\n" \
+           f"Machine:\t{POINTS_MACHINE}\n" \
+           f"Ties:\t\t{TIE}"
 
 
 def welcome_screen():
@@ -33,7 +44,7 @@ def welcome_screen():
     """
     clear_screen()
     print(logo)
-    print("Welcome to the World of Rock, Paper & Scissors.")
+    print(scoreboard())
     user_input = (input("Type \n"
                         "\t1 for Rock\n"
                         "\t2 for Paper\n"
@@ -62,8 +73,10 @@ def machine_choice(user_input):
     """
     machine_input = random.randint(0, 2)
 
+    time.sleep(1)
     print(f"\nMachine chooses:\n"
           f"{game_image[machine_input]}")
+    time.sleep(2)
 
     outcome(user_input, machine_input)
 
@@ -72,16 +85,38 @@ def outcome(user_input, machine_input):
     """
     Determine the winner, loser or tie
     """
+    global POINTS_USER, POINTS_MACHINE, TIE
+
     if user_input == 0 and machine_input == 2:
-        print("You win!")
+        clear_screen()
+        print(logo)
+        POINTS_USER += 1
+        print(scoreboard())
+        print("\nYou win!")
     elif machine_input == 0 and user_input == 2:
-        print("You loose!")
+        clear_screen()
+        print(logo)
+        POINTS_MACHINE += 1
+        print(scoreboard())
+        print("\nYou loose!")
     elif machine_input > user_input:
+        clear_screen()
+        print(logo)
+        POINTS_MACHINE += 1
+        print(scoreboard())
         print("\nYou loose!")
     elif user_input == machine_input:
-        print("It's a draw!")
+        clear_screen()
+        print(logo)
+        TIE += 1
+        print(scoreboard())
+        print("\nIt's a draw!")
     elif user_input > machine_input:
-        print("You win!")
+        clear_screen()
+        print(logo)
+        POINTS_USER += 1
+        print(scoreboard())
+        print("\nYou win!")
 
 
 def go_again():
